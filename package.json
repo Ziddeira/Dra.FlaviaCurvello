@@ -1,0 +1,17 @@
+{
+  "name": "dra-flavia-curvello-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site de alta conversão da clínica Dra. Flávia Curvello — Estética corporal, facial e íntima em Florianópolis.",
+  "license": "UNLICENSED",
+  "main": "server/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "start:env": "node --env-file=.env server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test test/*.test.js"
+  }
+}
